@@ -1,5 +1,7 @@
 class _AccessibiltyPanel {
 	constructor() {
+		console.log('Accessibility Panel Loaded');
+
 		let _acs_body = document.querySelector('body');
 
 		// Add stylesheet
